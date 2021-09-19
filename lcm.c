@@ -3,10 +3,12 @@ int lcm(int,int);
 int main()
 {
     int a,b,res;
-    printf("Enter 2 integers to find LCM of: ");
-    scanf("%d%d",&a,&b);
+    printf("INPUT FIRST NUMBER: ");
+    scanf("%d",&a);
+    printf("INPUT SECOND NUMBER: ");
+    scanf("%d",&b);
     res=lcm(a,b);    
-    printf(" LCM of %d and %d is: %d",a,b,res);
+    printf("\nLCM OF %d AND %d IS: %d",a,b,res);
     return 0;
 }
 
